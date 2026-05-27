@@ -1,0 +1,11 @@
+{
+  "name": "hackerrank-practice-js",
+  "version": "1.0.0",
+  "description": "HackerRank practice problems in Node.js",
+  "scripts": {
+    "test": "node --test",
+    "run:all": "node runner.js",
+    "run:file": "node runner.js"
+  },
+  "devDependencies": {}
+}

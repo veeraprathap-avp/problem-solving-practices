@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Problem",
+      "program": "${workspaceFolder}/runner.js",
+      "args": ["${input:problemName}"],
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "problemName",
+      "type": "promptString",
+      "description": "Problem filename to debug",
+      "default": "two-sum"
+    }
+  ]
+}
