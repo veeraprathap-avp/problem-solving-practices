@@ -9,6 +9,9 @@ node runner.js
 ```bash
 node runner.js two-sum
 node runner.js parentheses
+OR
+npm run run:all
+npm run run:file <filename> 
 ```
 
 ## Add a new problem
